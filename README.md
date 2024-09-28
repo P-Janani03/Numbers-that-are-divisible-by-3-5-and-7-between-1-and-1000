@@ -1,1 +1,5 @@
-# Numbers-that-are-divisible-by-3-5-and-7-between-1-and-1000
+num=0
+for i in range(1,1001):
+    if (i%3)==0 and (i%5)==0 and (i%7)==0:
+        num=i
+        print(num)
